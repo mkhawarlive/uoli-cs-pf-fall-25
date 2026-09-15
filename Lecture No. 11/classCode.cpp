@@ -24,63 +24,60 @@ class Student{
         cout << "Roll Number: " << rollNumber << endl;
         cout << "Marks: " << marks << endl;
     }
-
-
-
 };
 
-class StudentFee{
-    public:
-    string accountHolderName;
-    int accountNumber;
-    float currentBalance = 10000;
+// class StudentFee{
+//     public:
+//     string accountHolderName;
+//     int accountNumber;
+//     float currentBalance;
 
-    public:
+//     public:
 
-    void deposit(float amount){
-        if (amount > 0 ){
-            currentBalance =  currentBalance + amount;
-            cout << "Amount "  << amount << " added" << endl;
-            cout << "Your current balance is " << currentBalance << endl;
-            display();
-        }
-        else{
-            cout << "Either amount is 0 or non-positive" << endl;
-        }
+//     void deposit(float amount){
+//         if (amount > 0 ){
+//             currentBalance =  currentBalance + amount;
+//             cout << "Amount "  << amount << " added" << endl;
+//             cout << "Your current balance is " << currentBalance << endl;
+//             display();
+//         }
+//         else{
+//             cout << "Either amount is 0 or non-positive" << endl;
+//         }
 
-    }
-    void withDraw(float amount){
-        if (amount > 0 && amount <= currentBalance){
-            currentBalance =  currentBalance - amount;
-            cout << "Amount "  << amount << " deducted" << endl;
-            cout << "Your current balance is " << currentBalance << endl;
-            display();
-        }
-        else{
-            cout << "Either amount is 0 or greater than current Balance" << endl;
-        }
-    }
-    void display(){
-        cout << "\n Account Holder Name: " << accountHolderName;
-        cout << "\n Account Number: " << accountNumber;
-        cout << "\n Current Balance: " << currentBalance;
-    }
+//     }
+//     void withDraw(float amount){
+//         if (amount > 0 && amount <= currentBalance){
+//             currentBalance =  currentBalance - amount;
+//             cout << "Amount "  << amount << " deducted" << endl;
+//             cout << "Your current balance is " << currentBalance << endl;
+//             display();
+//         }
+//         else{
+//             cout << "Either amount is 0 or greater than current Balance" << endl;
+//         }
+//     }
+//     void display(){
+//         cout << "\n Account Holder Name: " << accountHolderName;
+//         cout << "\n Account Number: " << accountNumber;
+//         cout << "\n Current Balance: " << currentBalance;
+//     }
 
-};
+// };
 int main(){
     Student student1;
-    student1.studentName = "John Doe";
+    student1.studentName = "Ali";
     student1.rollNumber = 101;
 
-    student1.updateMarks(100.0);
-    //student1.marks = 185.5;
-    //student1.displayStudentInfo();
+    // student1.updateMarks(100.5);
+    student1.marks = 185;
+    student1.displayStudentInfo();
 
-    StudentFee sf;
-    sf.accountHolderName = "Awais";
-    sf.accountNumber = 12345;
-    sf. deposit(-5000.0);
-    sf.withDraw(2000.0);
+    // StudentFee sf;
+    // sf.accountHolderName = "Awais";
+    // sf.accountNumber = 12345;
+    // sf. deposit(-5000.0);
+    // sf.withDraw(2000.0);
     // sf.display();
 
 }

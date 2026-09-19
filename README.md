@@ -1,4 +1,4 @@
-# Programming Fundamentals — Fall 2025
+# Programming Fundamentals — Fall 2026
 
 This repository contains course materials, examples, lab tasks, assignments,
 and supporting resources for the Programming Fundamentals course offered by

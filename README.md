@@ -1,4 +1,4 @@
-# Programming Fundamentals — Fall 2026
+# Object Oriented Programming — Fall 2026
 
 This repository contains course materials, examples, lab tasks, assignments,
 and supporting resources for the Programming Fundamentals course offered by
@@ -6,7 +6,7 @@ the Department of Computer Science, University of Loralai.
 
 ## Course Information
 
-- **Course:** Programming Fundamentals
+- **Course:** Object Oriented Programming
 - **Semester:** Fall 2026
 - **Department:** Computer Science
 - **University:** University of Loralai
